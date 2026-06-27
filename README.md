@@ -3,7 +3,7 @@
 _chabo-dsl_ -- chabo Domain Specific Language
 
 ## Overview
-A tiny AST-based interpreter written in Perl.
+A tiny AST-based DSL engine written in Perl, featuring Japanese DSL support.
 
 Features:
 
@@ -11,7 +11,7 @@ Features:
 - Parser
 - AST Evaluator
 - Scope Management
-- User-defined Functions
+- User-defined functions
 - Japanese DSL support via Sugar.pm
 
 ### Demo
@@ -21,7 +21,7 @@ https://qweer.info/api/Ast/ast
 * [1 + 2 * 3](https://qweer.info/api/Ast/ast?calc=1%2b2*3)
 * [2 ** 3 ** 2](https://qweer.info/api/Ast/ast?calc=2**3**2)
 * [(1+2)(3+4)](https://qweer.info/api/Ast/ast?calc=(1%2b2)(3%2b4))
-* Find the greatest common divisor
+* Greatest common divisor (GCD)
 ```perl
 gcd(a,b) = b?gcd(b,a % b):a;
 gcd(72,30);
