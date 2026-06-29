@@ -38,6 +38,7 @@ sub convert {
     $text =~ tr/　/ /;
     $text =~ tr/、/ /;
     $text =~ tr/。/;/;
+    $text =~ s/\n\s*//g;
 
 
     # もし〜なら〜以外は〜
