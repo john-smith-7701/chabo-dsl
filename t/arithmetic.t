@@ -25,5 +25,11 @@ is(
     'implicit multiplication'
 );
 
+is(
+    $ast->Astnew(formula => 'int(9/2)')->{answer},
+    4,
+    'int'
+);
+
 done_testing;
 
