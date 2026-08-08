@@ -746,4 +746,13 @@ _bar
 数量
 売上2025
 ```
+## Contribution
+Bug reports and suggestions are welcome.
 
+## Licence
+This software is released under the same terms as Perl itself. See the LICENSE file for details.
+
+## Author
+john smith john.smith.7701@gmail.com
+
+http://park15.wakwak.com/~k-lovely/cgi-bin/wiki/wiki.cgi
