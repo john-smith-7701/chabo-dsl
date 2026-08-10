@@ -3,6 +3,10 @@
 _chabo-dsl_ -- chabo Domain Specific Language
 
 ## Overview
+**chabo-dsl is a hands-on learning environment for exploring language implementation and algorithms.**
+
+It is a small scripting language implemented in Perl, designed to make it easy to experiment with parsing, AST construction, evaluation, functions, recursion, and algorithms.
+
 A tiny AST-based DSL engine written in Perl, featuring Japanese DSL support.
 
 Features:
