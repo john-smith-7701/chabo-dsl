@@ -56,6 +56,7 @@
         };
 ```
 </details>
+
 ### 比較演算子導入
 ３項演算子の真偽だけの判断ではさすがにつらいので[比較演算子](https://github.com/john-smith-7701/mmt/commit/c23135deebb9234f2fbdd047df2b44940f5f9729)と[論理演算子](https://github.com/john-smith-7701/mmt/commit/04126bff5dd0a0276778efd1bb6339b23a99349b)を追加
 ```
@@ -163,15 +164,16 @@
         };
 ```
 </details>
+
 ### [インクリメント・デクリメント計算を追加](https://github.com/john-smith-7701/mmt/commit/7f41a08b928f3c058cb356561c2a44f4de529d3a)
 ```
  a=10;
  f(x,y) = (x?f(--a,x+y):y);
  f(a,0)
- ```
- ```
+```
+```
  ->55
- ```
+```
 ### [配列とpush,popを追加](https://github.com/john-smith-7701/mmt/commit/60019cd632213b3ed0f185a69c55f6fbc2fb3b20)
 ```
  a=[1,2,3];
