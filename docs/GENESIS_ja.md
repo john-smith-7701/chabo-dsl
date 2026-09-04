@@ -20,8 +20,10 @@
  ```
  ->720
 ```
+<details>
+<summary>AST</summary>
+
 ```
- [AST]
  $VAR1 = {
           'left' => {
                       'body' => {
@@ -53,6 +55,7 @@
           'data' => ';'
         };
 ```
+</details>
 ### 比較演算子導入
 ３項演算子の真偽だけの判断ではさすがにつらいので[比較演算子](https://github.com/john-smith-7701/mmt/commit/c23135deebb9234f2fbdd047df2b44940f5f9729)と[論理演算子](https://github.com/john-smith-7701/mmt/commit/04126bff5dd0a0276778efd1bb6339b23a99349b)を追加
 ```
@@ -65,8 +68,10 @@
 ```
  ->3
 ```
+<details>
+<summary>AST</summary>
+
 ```
- [AST]
  $VAR1 = {
           'left' => {
                       'left' => {
@@ -157,6 +162,7 @@
                      }
         };
 ```
+</details>
 ### [インクリメント・デクリメント計算を追加](https://github.com/john-smith-7701/mmt/commit/7f41a08b928f3c058cb356561c2a44f4de529d3a)
 ```
  a=10;
