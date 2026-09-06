@@ -227,6 +227,9 @@
  ```
  ->a5,100,a3,a4,a1,a2
  ```
+<details>
+<summary>AST</summary>
+
  ```
            'vars' => {
                       'h' => {
@@ -243,6 +246,8 @@
                              }
                     },
 ```
+</details>
+
 ### 正規表現を追加
 
 [正規表現](https://github.com/john-smith-7701/mmt/commit/b968fd398fcefb88cc01401ba5c291eebb5127e5)と[正規表現の置換](https://github.com/john-smith-7701/mmt/commit/b968fd398fcefb88cc01401ba5c291eebb5127e5)を追加
