@@ -192,7 +192,6 @@ $_;
 sort { length $b <=> length $a }
 (keys %$op, @_)
 );
-&#160;
 $s->{ops} = '(' . $s->{ops} . ')';
 ```
 
@@ -220,7 +219,6 @@ Nobody is manually writing rules for:
 >=
 &&
 ||
-&#160;
 ```
 
 Instead, the operator table itself is used to generate the regular expression that recognizes operators.
@@ -348,6 +346,7 @@ Just:
 
 ```
 Sugar
+```
 
 A layer of sweetness applied before the language reaches the machinery underneath.
 
@@ -365,7 +364,7 @@ Sugar.pm
 chabo-dsl syntax
 ↓
 Parser
-``
+```
 
 The parser remains blissfully ignorant.
 
@@ -500,6 +499,7 @@ And sometimes it is a slightly alarming regular expression followed by s///gex.
 chabo-dsl chooses the latter more often than it probably should.
 
 I think that's part of its charm.
+
 ## 5. Let Regular Expressions Absorb the Ambiguity
 
 Most programming languages enjoy a luxury that Japanese does not.
