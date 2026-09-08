@@ -2,7 +2,7 @@
 ## 1. chabo-dsl Is Not Just a Small Language
 It Is Also a Playground for Regular Expressions
 
-chabo-dsl is an AST-based DSL engine implemented entirely in Perl from scratch.
+[chabo-dsl](https://github.com/john-smith-7701/chabo-dsl/tree/main) is an AST-based DSL engine implemented entirely in Perl from scratch.
 
 It includes a tokenizer, a parser, AST construction, an evaluator, scope management, user-defined functions, and even recursion. Yet the whole thing fits into roughly 750 lines of code, even counting the POD documentation.
 
