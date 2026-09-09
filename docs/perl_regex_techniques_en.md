@@ -374,7 +374,6 @@ Consider a sentence like:
 
 ```
 もし信号が青か緑なら進んでも良い以外で
-その他の行を表示する
 ```
 
 The parser does not need to understand what "if" means in Japanese.
@@ -1485,7 +1484,7 @@ They are.
 And honestly?
 
 I think that's fine.
-!!20. Regular Expressions Are Not Black Magic
+## 20. Regular Expressions Are Not Black Magic
 
 Regular expressions are often accused of being black magic.
 
@@ -1929,7 +1928,7 @@ Looking perfectly natural.
 As though it had been there all along.
 
 And that, to me, is one of the most enjoyable games a programmer can play.
-!!22. Finally: A Love Letter to Perl and Regular Expressions
+## 22. Finally: A Love Letter to Perl and Regular Expressions
 
 Look through the code of chabo-dsl and you will find all the usual suspects.
 
