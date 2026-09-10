@@ -65,10 +65,7 @@ Even Variable Names
 Somewhere inside Ast.pm, there is a definition that looks roughly like this:
 
 ```perl
-VAR_NAME => qr/
-[\p{L}_]
-[\p{L}\p{N}_]*
-/u,
+VAR_NAME => qr/[\p{L}_][\p{L}\p{N}_]*/u,
 ```
 And that's pretty much it.
 
