@@ -1,7 +1,7 @@
-# INDEXA
-. [chabo-dslリポジトリ](https://github.com/john-smith-7701/chabo-dsl/tree/main)
-. [README](https://github.com/john-smith-7701/chabo-dsl/blob/main/README_ja.md)
-. [docs](https://github.com/john-smith-7701/chabo-dsl/tree/main/docs)
+# INDEX
+* [chabo-dslリポジトリ](https://github.com/john-smith-7701/chabo-dsl/tree/main)
+* [README](https://github.com/john-smith-7701/chabo-dsl/blob/main/README_ja.md)
+* [docs](https://github.com/john-smith-7701/chabo-dsl/tree/main/docs)
 ## リファレンス
 1. [DSLシンタックス](https://github.com/john-smith-7701/chabo-dsl/blob/main/docs/dslReference_ja.md)
 2. [日本語DSL](https://github.com/john-smith-7701/chabo-dsl/blob/main/docs/sugar_ja.md)
